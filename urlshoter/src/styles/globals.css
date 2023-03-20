@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Righteous&display=swap');
+
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -105,3 +108,44 @@ a {
     color-scheme: dark;
   }
 }
+
+#body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+#elem {
+  background: rgb(218,37,37);
+  background: linear-gradient(32deg, rgba(218,37,37,1) 0%, rgba(64,172,101,1) 50%, rgba(79,53,237,1) 100%);
+  padding: 75px;
+  border-radius: 5px;
+  width: 50%;
+}
+
+#elem button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px;
+}
+
+#elem h1 {
+  text-align: center;
+  padding-bottom: 25px;
+  font-family: 'Righteous', cursive; 
+  font-size: 100px;
+}
+
+#elem input {
+  width: 80%;
+  padding: 15px;
+}
+
+#elem p {
+  font-family: 'Poppins', sans-serif;
+  padding-top: 40px;
+  font-size: 25px;
+}
+

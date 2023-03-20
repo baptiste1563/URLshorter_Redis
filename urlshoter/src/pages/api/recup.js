@@ -6,5 +6,5 @@ export default async function handlerRecup(req, res) {
     const value = await redisClient.get(id);
 
 
-    return res.status(200).json({ value });
+    return res.status(200).json({ value : value });
   }

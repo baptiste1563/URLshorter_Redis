@@ -41,11 +41,16 @@ export default function Home() {
 
   return (
     <>
-      <h1>shortUrl</h1>
-      <input type="url" value={inputValue} onChange={handleInputChange}/>
-      <button onClick={handleButtonClick}>Afficher la valeur</button>
-      <div>La valeur est : {displayValue}</div>
-      <a href={displayValue} > test</a>
+          <div id='body'>
+            <div id='elem'>
+              <h1>shortUrl</h1>
+              <div id='item'>
+                <input type="url" value={inputValue} onChange={handleInputChange} required="required" placeholder='Enter here your URL'/>
+                <button onClick={handleButtonClick}>SHORRRRT !!!!</button>
+              </div>
+              <p>Your new link  : {displayValue}</p>
+            </div>
+          </div>
     </>
   )
 }
